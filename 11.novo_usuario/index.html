@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="create-user.css">
+    <title>Create User</title>
+</head>
+<body>
+    <form action="" autocomplete="off">
+        <p>
+            <input id="email" onkeypress="analisarEntrada(event)">
+        </p>
+        <p>
+            <input type="text" id="username">
+        </p>
+        <p>
+            <input type="password" id="senha">
+        </p>
+        <input type="button" value="" id="request">
+        <ul>
+            <li id="situacaoEmail"></li>
+            <li id="situacaoUsername"></li>
+            <li id="situacaoSenha"></li>
+        </ul>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

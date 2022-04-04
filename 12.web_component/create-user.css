@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  background: #afa;
+  padding: 2em;
+  width: 550px;
+  height: 400px;
+  box-shadow: 5px 5px 5px #ccc;
+  margin: 1em;
+}
+
+form li {
+  color: red;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+button {
+  float: right;
+  padding: 1em;
+  margin: 0;
+}
